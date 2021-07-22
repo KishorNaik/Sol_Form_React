@@ -4,12 +4,14 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.min.css";
 import FormDemo from "./Components/FormDemo"
+import FormDemo2 from './Components/FormDemo2';
 
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <FormDemo></FormDemo>
+    {/* <FormDemo></FormDemo> */}
+    <FormDemo2></FormDemo2>
   </React.StrictMode>,
   document.getElementById('root')
 );
